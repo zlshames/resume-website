@@ -15,6 +15,14 @@ SETTINGS
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
+
+html { 
+  background: url(https://images.unsplash.com/photo-1442612636743-35014399b8bc?crop=entropy&fit=crop&fm=jpg&h=775&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 /*******************************************
 BODY
 *******************************************/
@@ -23,15 +31,16 @@ body{
   font-weight: 400;
   font-size: 1em;
   color: #363636;
-  background: #ededed;
+  background: transparent;
 }
 /*******************************************
 CONTAINER
 *******************************************/
 .container{
-  margin-top: 80px;
+  margin-top: 200px;
   margin-bottom: 15px;
   background: #fff;
+  border: solid 3px #9A9A9A;
 }
 /*******************************************
 PHOTO (AVATAR)
@@ -45,7 +54,7 @@ PHOTO (AVATAR)
   border-radius: 50%;
   overflow: hidden;
   padding: 5px;
-  background: #ededed;
+  background: #9A9A9A;
   display: inline-block;
 }
 #photo img{
