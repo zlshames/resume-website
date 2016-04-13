@@ -246,6 +246,9 @@ SKILLS
   font-size: 1.3em;
   font-weight: 600;
 }
+.item-skills a{
+  color: #fff;
+}
 .skills-legend{
   margin-top: 20px;
   opacity: 0.8;
