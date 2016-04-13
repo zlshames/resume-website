@@ -282,6 +282,9 @@ SKILLS
 .legend-right.legend:before{
   margin-right: 0;
 }
+.legend-center.legend:before{
+  margin-left: -50px;
+}
 .legend-left:nth-child(2) span{
   margin-left: -25px;
 }
