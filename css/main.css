@@ -324,6 +324,15 @@ LANGUAGES
 /*******************************************
 HOBBIES
 *******************************************/
+.tech{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 5px;
+  background: #A75265;
+  font-size: 1.2em;
+}
 .hobby{
   color: #fff;
   display: inline-block;
